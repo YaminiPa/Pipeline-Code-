@@ -56,3 +56,8 @@ resource "azurerm_storage_account" "stg1" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource "azurerm_resource_group" "example3" {
+  name     = "rebase"
+  location = "West Europe"
+}
