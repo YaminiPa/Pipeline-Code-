@@ -65,3 +65,8 @@ resource "azurerm_resource_group" "example4" {
   name     = "rebase1"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "example5" {
+  name     = "rebase"
+  location = "West Europe"
+}
