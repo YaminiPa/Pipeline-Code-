@@ -75,3 +75,5 @@ resource "azurerm_resource_group" "example6" {
   name     = "squash"
   location = "West Europe"
 }
+
+
